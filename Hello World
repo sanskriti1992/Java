@@ -1,0 +1,7 @@
+public class helloWorld
+{
+  public static void main(String[] args) //where the program starts
+	{
+System.out.println("Hello World");
+	}
+}
