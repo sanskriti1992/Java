@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ConvertMinutes 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner inp = new Scanner(System.in);
+		System.out.println("Enter the number:");
+		double a = inp.nextDouble();
+		double minsInyear = 525600;
+		long years= (long)(a/minsInyear);
+		int days = (int)(a/60/24)%365;
+		System.out.println((int)a+"minutes is approximately "+ years +" years and "+ days +" days");
+	}
+
+}
