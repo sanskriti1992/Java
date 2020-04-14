@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SwitchStatement 
+{
+    public static void main(String[] args) 
+	{
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter choice:\n1. Hey\n2. Hi\n3. Hello");
+		int choice = s.nextInt();
+		switch(choice)
+		{
+		   case 1: System.out.println("Hey");
+		           break;
+		   case 2: System.out.println("Hi");
+		           break;
+		   case 3: System.out.println("Hello");
+		           break;
+		   default:System.out.println("Invalid choice");        
+		}
+	}
+}
